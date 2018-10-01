@@ -1,0 +1,34 @@
+@font-face {
+  font-family: "LibreBaskerville-Bold";
+  src: url("../fonts/LibreBaskerville-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/LibreBaskerville-Bold.woff") format("woff"), url("../fonts/LibreBaskerville-Bold.ttf") format("truetype");
+  font-style: normal; }
+@font-face {
+  font-family: "Poppins-Medium";
+  src: url("../fonts/Poppins-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/Poppins-Medium.woff") format("woff"), url("../fonts/Poppins-Medium.ttf") format("truetype");
+  font-style: normal; }
+@font-face {
+  font-family: "Poppins-Regular";
+  src: url("../fonts/Poppins-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Poppins-Regular.woff") format("woff"), url("../fonts/Poppins-Regular.ttf") format("truetype");
+  font-style: normal; }
+@font-face {
+  font-family: "Poppins-SemiBold";
+  src: url("../fonts/Poppins-SemiBold.eot?#iefix") format("embedded-opentype"), url("../fonts/Poppins-SemiBold.woff") format("woff"), url("../fonts/Poppins-SemiBold.ttf") format("truetype");
+  font-style: normal; }
+@font-face {
+  font-family: "Poppins-Bold";
+  src: url("../fonts/Poppins-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Poppins-Bold.woff") format("woff"), url("../fonts/Poppins-Bold.ttf") format("truetype");
+  font-style: normal; }
+@font-face {
+  font-family: "Sacramento-Regular";
+  src: url("../fonts/Sacramento-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Sacramento-Regular.woff") format("woff"), url("../fonts/Sacramento-Regular.ttf") format("truetype");
+  font-style: normal; }
+@font-face {
+  font-family: "WisdomScriptAJ";
+  src: url("../fonts/WisdomScriptAJ.eot?#iefix") format("embedded-opentype"), url("../fonts/WisdomScriptAJ.woff") format("woff"), url("../fonts/WisdomScriptAJ.ttf") format("truetype");
+  font-style: normal; }
+@font-face {
+  font-family: "LibreBaskerville-Regular";
+  src: url("../fonts/LibreBaskerville-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/LibreBaskerville-Regular.woff") format("woff"), url("../fonts/LibreBaskerville-Regular.ttf") format("truetype");
+  font-style: normal; }
+
+/*# sourceMappingURL=fonts.css.map */

@@ -1,0 +1,841 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	.our_approch .step1_md, .our_approch .step2_md, .our_approch .step3_md, .our_approch .step4_md{
+		width: 935px;
+		margin-left: 0;
+	}
+
+	.our_approch .step1_md .step_block{
+		left: 293px;
+	}
+
+	.our_approch .step1_md .step_text{
+		margin-right: 30px;
+	}
+
+	.our_approch .step2_md .step_block{
+		left: 557px;
+	}
+
+	.our_approch .step2_md .step_text{
+		margin-right: -25px;
+	}
+
+	.our_approch .step3_md .step_block{
+		left: 303px;
+	}
+
+	.our_approch .step3_md .step_text{
+		margin-right: 20px;
+	}
+
+	.our_approch .step4_md .step_block{
+		left: 560px;
+	}
+
+	.our_approch .step4_md .step_text{
+		margin-right: -25px;
+	}
+}
+
+@media only screen and (max-width : 1199px) {
+	.contacts .c_phone{
+		margin-right: 0;
+		}
+
+	.contacts .c_mail{
+		margin-right: 2px;
+		margin-left: 10px;
+	}
+
+	.contacts	p:nth-child(2){
+		margin-right: 15px;
+	}
+
+	.contacts .c_f{
+		margin: 0;
+	}
+
+	.our_work .w_block_md, .our_work .w_block_sm, .our_work .bridge img, .our_work .camera img, .our_work .tree img, .our_work .path img{
+		width: 220px;
+		height: 220px;
+	}
+
+	.our_work .w_block_md .w_text, .our_work .w_block_sm .w_text{
+		margin-left: 0;
+	}
+
+	.our_work .r1, .our_work .bridge{
+		margin-left: 29px;
+	}
+
+	.our_work .r2, .our_work .path{
+		margin-left: -16px;
+	}
+
+	.our_work .camera, .our_work .r3{
+		margin-left: 7px;
+	}
+
+	.our_work .tree, .our_work .r4{
+		margin-left: -38px;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.our_approch{
+		margin-top: 420px;
+		height: 1200px;
+	}
+
+	.our_approch .step1_md, .our_approch .step2_md, .our_approch .step3_md, .our_approch .step4_md{
+		display: none;
+	}
+
+	.our_approch .step1_sm, .our_approch .step2_sm, .our_approch .step3_sm, .our_approch .step4_sm{
+		display: block;
+	}
+
+	.our_approch .step1_sm, .our_approch .step2_sm, .our_approch .step3_sm, .our_approch .step4_sm{
+		width: 725px;
+		height: 190px;
+		margin-right: 0;
+	}
+
+	.our_approch .step1_sm img, .our_approch .step2_sm img, .our_approch .step3_sm img, .our_approch .step4_sm img{
+		width: 290px;
+		height: 190px;
+	}
+
+	.our_approch .step1_sm .step_block{
+		left: 245px;
+		bottom: 43px
+	}
+
+	.our_approch .step1_sm .step_text{
+		margin-right: 30px;
+		margin-top: 43px;
+	}
+
+	.our_approch .step1_sm .step_text h1{
+		font-size: 16px;
+	}
+
+	.our_approch .step1_sm .step_text p{
+		font-size: 11px;
+		white-space: pre;
+		margin-top: -8px;
+	}
+
+
+	.our_approch .step2_sm .step_block{
+		left: 399px;
+		bottom: 43px;
+	}
+
+	.our_approch .step2_sm .step_text{
+		padding-top: 40px;
+		margin-left: 20px;
+	}
+
+	.our_approch .step2_sm .step_text h1{
+		font-size: 16px;
+		margin-left: 170px;
+		white-space: pre;
+	}
+
+	.our_approch .step2_sm .step_text p{
+		font-size: 11px;
+		white-space: pre;
+		margin-top: -8px;
+	}
+
+	.our_approch .step3_sm .step_block{
+		left: 251px;
+		bottom: 43px;
+	}
+
+	.our_approch .step3_sm .step_text{
+		margin-right: 30px;
+		margin-top: 40px;
+	}
+
+	.our_approch .step3_sm .step_text h1{
+		font-size: 16px;
+	}
+
+	.our_approch .step3_sm .step_text p{
+		font-size: 11px;
+		white-space: pre;
+		margin-top: -8px;
+	}
+
+	.our_approch .step4_sm .step_block{
+		left: 399px;
+		bottom: 43px;
+	}
+
+	.our_approch .step4_sm .step_text{
+		padding-top: 40px;
+		margin-left: 20px;
+	}
+
+	.our_approch .step4_sm .step_text h1{
+		font-size: 16px;
+		margin-left: 170px;
+		white-space: pre;
+	}
+
+	.our_approch .step4_sm .step_text p{
+		font-size: 11px;
+		white-space: pre;
+		margin-top: -8px;
+	}
+
+	.col-md-3{
+		display: none;
+	}
+
+	.our_work .w_block_md{
+		display: none;
+	}
+
+	.our_work .w_block_sm{
+		display: block;
+	}
+
+	.col-sm-6{
+		margin: 0;
+		padding: 0;
+	}
+
+	.our_work{
+		height: 1300px;
+	}
+
+	.our_work .r1{
+		margin-left: 0;
+		position: relative;
+		float: right;
+	}
+
+	.our_work .camera img, .our_work .camera{
+		margin-left: 0;
+		position: relative;
+	}
+
+	.our_work .r2{
+		margin-left: 0;
+		position: relative;
+	}
+
+	.our_work .tree img, .our_work .tree{
+		margin-left: 0;
+		position: relative;
+		float: right;
+	}
+
+	.our_work .r3{
+		margin-left: 0;
+		position: relative;
+		float: right;
+	}
+
+	.our_work .bridge img, .our_work .bridge{
+		margin-left: 0;
+		position: relative;
+	}
+
+	.our_work .r4{
+		margin-left: 0;
+		position: relative;
+	}
+
+	.our_work .path img, .our_work .path{
+		margin-left: 0;
+		position: relative;
+		float: right;
+	}
+}
+
+@media only screen and (max-width : 991px) {
+	.top .logo_h{
+		font-size: 25px;
+		margin-top: 35px;
+		margin-left: 5px;
+	}
+
+	.top .logo_p{
+		font-size: 11px;
+		margin-left: 5px;
+	}
+
+	.top .hat{
+		width: 62px;
+		height: 40px;
+	}
+
+	.top ul li{
+		margin-left: 30px;
+		font-size: 12px;
+		padding-left: 0
+	}
+
+	.top ul	li:last-child{
+		margin-left: 10px;
+	}
+
+	.top button{
+		font-size: 13px;
+		padding: 8px 19px
+	}
+
+	.about_us .book{
+		margin-top: 20px;
+	}
+
+	.about_us .ads{
+		margin-top: 20px;
+	}
+
+
+	.contacts{
+		font-size: 14px;
+	}
+
+	.contacts .c_f{
+		margin: 0;
+	}
+
+	.contacts	p:nth-child(2){
+		margin-right: 8px;
+	}
+
+	.contacts .c_mail{
+		margin-right: 2px;
+		margin-left: 8px;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.contacts{
+		text-align: center;
+	}
+
+	.nav{display: none;}
+
+	.top .nav{
+		margin-top: 5px;
+		width: 300%;
+		height: 225px;
+		background-color: #fff;
+		z-index: 2;
+	}
+
+	.col-xs-4{
+		padding: 0;
+	}
+
+	.top .nav li{
+		float: none;
+		margin-top: 20px;
+		list-style-type: none;
+		text-align: center;
+		margin-left: 10px;
+	}
+
+	.top .nav li:last-child{
+		margin-top: 20px;
+	}
+
+	.touch-menu{
+		display: block;
+		padding-right: 15px;
+	}
+
+	.our_approch{
+		height: 1050px;
+	}
+
+	.our_approch .step1_sm, .our_approch .step2_sm, .our_approch .step3_sm, .our_approch .step4_sm{
+		width: 576px;
+		height: 150px;
+		margin-left: 75px;
+	}
+
+	.our_approch .step1_sm img, .our_approch .step2_sm img, .our_approch .step3_sm img, .our_approch .step4_sm img{
+		width: 250px;
+		height: 150px;
+	}
+
+	.our_approch .step1_sm .step_block, .our_approch .step3_sm .step_block{
+		width: 75px;
+		height: 75px;
+		left: 292px;
+	}
+
+	.our_approch .step2_sm .step_block, .our_approch .step4_sm .step_block{
+		width: 75px;
+		height: 75px;
+		left: 382px;
+	 }
+
+	.our_approch .step1_sm .step_block h1, .our_approch .step2_sm .step_block h1, .our_approch .step3_sm .step_block h1, .our_approch .step4_sm .step_block h1{
+		font-size: 40px;
+		margin-left: 25px;
+		margin-top: 5px;
+	}
+
+	.our_approch .step1_sm .step_block p, .our_approch .step2_sm .step_block p, .our_approch .step3_sm .step_block p, .our_approch .step4_sm .step_block p{
+		font-size: 15px;
+		margin-left: 21px;
+		margin-top: -2px;
+	}
+
+	.our_approch .step1_sm .step_text, .our_approch .step3_sm .step_text{
+		margin-right: 10px;
+		margin-top: 24px;
+	}
+
+	.our_approch .step2_sm .step_text, .our_approch .step4_sm .step_text{
+		margin-left: 7px;
+		padding-top: 20px;
+	}
+
+	.our_approch .step2_sm .step_text h1, .our_approch .step4_sm .step_text h1{
+		margin-left: 122px;
+	}
+
+	.our_approch .step1_sm .step_text h1, .our_approch .step2_sm .step_text h1, .our_approch .step3_sm .step_text h1, .our_approch .step4_sm .step_text h1{
+		font-size: 15px;
+	}
+
+	.our_approch .step1_sm .step_text p, .our_approch .step2_sm .step_text p, .our_approch .step3_sm .step_text p, .our_approch .step4_sm .step_text p{
+		font-size: 9px;
+	}
+
+	.analys .form_md, .analys .form_xs{
+		display: none;
+	}
+
+	.analys .form_sm{
+		display: block;
+	}
+
+	.analys .form_sm .box{
+		width: 400px;
+		height: 90vh;
+		background: url(../img/form.png) center no-repeat;
+	}
+
+	.analys .form_sm .box h1{
+		font-size: 14px;
+		padding-top: 105px;
+		white-space: pre;
+	}
+
+	.analys .form_sm .box .form_input:first-child{
+		margin-top: 40px;
+	}
+
+	.analys .form_sm .box .form_input{
+		width: 320px;
+		height: 42px;
+		margin-top: 20px;
+	}
+
+	.analys .form_sm .box .btn{
+		width: 150px;
+		height: 44px;
+	}
+
+	.get .g_email{
+		width: 450px;
+	}
+}
+
+@media only screen and (max-width : 730px) {
+	.our_approch .step1_sm, .our_approch .step2_sm, .our_approch .step3_sm, .our_approch .step4_sm{
+		margin-left: 60px;
+	}
+
+	.our_approch .step1_sm .step_block, .our_approch .step3_sm .step_block{
+		width: 75px;
+		height: 75px;
+		left: 277px;
+	}
+
+	.our_approch .step2_sm .step_block, .our_approch .step4_sm .step_block{
+		width: 75px;
+		height: 75px;
+		left: 365px;
+	 }
+}
+
+@media only screen and (max-width : 700px) {
+	header .h_title h1{
+		font-size: 40px;
+	}
+
+	header .h_title p{
+		font-size: 25px;
+	}
+
+	header .h_title button{
+		padding: 15px 30px;
+		font-size: 20px;
+	}
+
+	.top .logo_h{
+		margin-left: 10px;
+	}
+
+	.top .logo_p{
+		margin-left: 10px;
+	}
+
+	.our_approch .step1_sm, .our_approch .step2_sm, .our_approch .step3_sm, .our_approch .step4_sm{
+		margin-left: 40px;
+	}
+
+	.our_approch .step1_sm .step_block, .our_approch .step3_sm .step_block{
+		width: 70px;
+		height: 70px;
+		left: 260px;
+	}
+
+	.our_approch .step2_sm .step_block, .our_approch .step4_sm .step_block{
+		width: 70px;
+		height: 70px;
+		left: 347px;
+	 }
+
+	.our_approch .step1_sm .step_block h1, .our_approch .step2_sm .step_block h1, .our_approch .step3_sm .step_block h1, .our_approch .step4_sm .step_block h1{
+		font-size: 40px;
+		margin-left: 22px;
+		margin-top: 2px;
+	}
+
+	.our_approch .step1_sm .step_block p, .our_approch .step2_sm .step_block p, .our_approch .step3_sm .step_block p, .our_approch .step4_sm .step_block p{
+		font-size: 15px;
+		margin-left: 19px;
+		margin-top: -2px;
+	}
+}
+
+@media only screen and (max-width : 660px) {
+	.our_approch .step1_sm, .our_approch .step2_sm, .our_approch .step3_sm, .our_approch .step4_sm{
+		margin-left: 20px;
+	}
+
+	.our_approch .step1_sm .step_block, .our_approch .step3_sm .step_block{
+		width: 70px;
+		height: 70px;
+		left: 242px;
+	}
+
+	.our_approch .step2_sm .step_block, .our_approch .step4_sm .step_block{
+		width: 70px;
+		height: 70px;
+		left: 328px;
+	 }
+}
+
+@media only screen and (max-width : 650px) {
+	.top .logo_h{
+		margin-left: 20px;
+	}
+
+	.top .logo_p{
+		margin-left: 20px;
+	}
+}
+
+@media only screen and (max-width : 630px) {
+	.our_approch .step1_sm, .our_approch .step2_sm, .our_approch .step3_sm, .our_approch .step4_sm{
+		margin-left: 5px;
+	}
+
+	.our_approch .step1_sm .step_block, .our_approch .step3_sm .step_block{
+		width: 70px;
+		height: 70px;
+		left: 227px;
+	}
+
+	.our_approch .step2_sm .step_block, .our_approch .step4_sm .step_block{
+		width: 70px;
+		height: 70px;
+		left: 313px;
+	 }
+}
+
+@media only screen and (max-width : 600px) {
+	.our_approch{
+		height: 2000px;
+	}
+
+	.our_approch .step1_sm, .our_approch .step2_sm, .our_approch .step3_sm, .our_approch .step4_sm{
+		width: 330px;
+		height: 390px;
+		margin: auto;
+		margin-top: 45px;
+	}
+
+	.our_approch .step1_sm img{
+		width: 340px;
+		height: 240px;
+	}
+
+	.our_approch .step2_sm img, .our_approch .step3_sm img, .our_approch .step4_sm img{
+		width: 330px;
+		height: 240px;
+	}
+
+	.our_approch .step1_sm .step_block, .our_approch .step2_sm .step_block, .our_approch .step3_sm .step_block, .our_approch .step4_sm .step_block{
+		width: 75px;
+		height: 75px;
+		bottom: 115px;
+		left: 42%;
+		text-align: center;
+	}
+
+	.our_approch .step1_sm .step_block h1, .our_approch .step2_sm .step_block h1, .our_approch .step3_sm .step_block h1, .our_approch .step4_sm .step_block h1{
+		font-size: 40px;
+		margin-left: 0px;
+		margin-top: 5px;
+	}
+
+	.our_approch .step1_sm .step_block p, .our_approch .step2_sm .step_block p, .our_approch .step3_sm .step_block p, .our_approch .step4_sm .step_block p{
+		font-size: 15px;
+		margin-left: 0;
+		margin-top: -2px;
+	}
+
+	.our_approch .step1_sm .step_text, .our_approch .step3_sm .step_text{
+		margin-top: 40px;
+		margin-left: 25px;
+	}
+
+	.our_approch .step2_sm .step_text, .our_approch .step4_sm .step_text{
+		padding-top: 280px;
+	}
+
+	.our_approch .step2_sm .step_text h1, .our_approch .step4_sm .step_text h1, .our_approch .step2_sm .step_text p, .our_approch .step4_sm .step_text p{
+		width: 276.95px;
+		margin: auto;
+		left: auto;
+	}
+
+	.our_approch .step1_sm .step_text h1, .our_approch .step3_sm .step_text h1, .our_approch .step1_sm .step_text p, .our_approch .step3_sm .step_text p{
+		float: left;
+	}
+
+	.our_approch .step1_sm .step_text h1, .our_approch .step2_sm .step_text h1, .our_approch .step3_sm .step_text h1, .our_approch .step4_sm .step_text h1{
+		font-size: 15px;
+	}
+
+	.our_approch .step1_sm .step_text p, .our_approch .step2_sm .step_text p, .our_approch .step3_sm .step_text p, .our_approch .step4_sm .step_text p{
+		font-size: 9px;
+	}
+}
+
+@media only screen and (max-width : 550px) {
+	.top .logo_h{
+		margin-left: 25px;
+	}
+
+	.top .logo_p{
+		margin-left: 25px;
+	}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	.our_work{
+		height: 920px;
+	}
+
+	.our_work .w_block_sm, .our_work .bridge img, .our_work .camera img, .our_work .tree img, .our_work .path img{
+		width: 150px;
+		height: 150px;
+	}
+
+	.our_work .w_block_sm .w_text{
+		padding-top: 25px;
+	}
+
+	.our_work .w_block_sm .w_text img{
+		width: 27px;
+		height: 28px;
+	}
+
+
+	.our_work .w_block_sm .w_text h1{
+		font-size: 18px;
+		margin-top: 20px;
+	}
+
+	.our_work .w_block_sm .w_text p{
+		font-size: 11px;
+	}
+
+	.analys{
+		height: 900px;
+	}
+
+	.analys .form_md, .analys .form_sm{display: none;}
+
+	.analys .form_xs{display: block;}
+
+	.analys .form_xs .box{
+		width: 300px;
+		height: 90vh;
+		background: url(../img/form.png) center no-repeat;
+	}
+
+	.analys .form_xs .box h1{
+		padding-top: 80px;
+		white-space: pre;
+		font-size: 13px;
+	}
+
+	.analys .form_xs .box .form_input:first-child{
+		margin-top: 40px;
+	}
+
+	.analys .form_xs .box .form_input{
+		width: 270px;
+		height: 42px;
+		margin-top: 20px;
+		padding-bottom: 3px;
+	}
+
+	.analys .form_xs .box .form_input::placeholder{
+		font-size: 12px;
+	}
+
+	.analys .form_xs .box .btn{
+		width: 150px;
+		height: 44px;
+	}
+
+	.get .g_email{
+		width: 300px;
+	}
+}
+
+@media only screen and (max-width : 450px) {
+	.top .logo_h{
+		margin-left: 30px;
+	}
+
+	.top .logo_p{
+		margin-left: 30px;
+	}
+}
+
+@media only screen and (max-width : 426px) {
+	header .h_title h1{
+		font-size: 35px;
+	}
+
+	header .h_title p{
+		font-size: 20px;
+	}
+
+	header .h_title button{
+		padding: 10px 25px;
+		font-size: 17px;
+	}
+}
+
+@media only screen and (max-width : 370px) {
+	.top .logo_h{
+		margin-left: 35px;
+	}
+
+	.top .logo_p{
+		margin-left: 35px;
+	}
+}
+
+@media only screen and (max-width : 360px) {
+	.top .logo_h{
+		margin-left: 35px;
+	}
+
+	.top .logo_p{
+		margin-left: 35px;
+	}
+
+	.touch-menu{
+		padding-right: 15px;
+	}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+	.s_title{
+		font-size: 32px;
+	}
+
+	.s_title_p{
+		font-size: 17px;
+	}
+
+	.about_block .like h1{
+		font-size: 18px;
+	}
+
+	.about_block .book h1{
+		font-size: 18px;
+	}
+
+	.about_block .ads h1{
+		font-size: 18px;
+	}
+
+	.about_block .like p{
+		font-size: 12px;
+	}
+
+	.about_block .book p{
+		font-size: 12px;
+	}
+
+	.about_block .ads p{
+		font-size: 12px;
+	}
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}

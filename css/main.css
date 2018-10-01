@@ -1,0 +1,709 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/A\:\/OSPanel\/domains\/bootstrapLandingPage1\/_html\/css\/sass\/main\.sass}line{font-family:\000035}}
+body {
+  font-family: "HelveticaNeue", sans-serif;
+  font-weight: normal;
+  font-size: 15px;
+  min-width: 320px;
+  position: relative;
+  line-height: 1.42857;
+  -webkit-font-smoothing: antialised;
+  color: #424242; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/A\:\/OSPanel\/domains\/bootstrapLandingPage1\/_html\/css\/sass\/main\.sass}line{font-family:\0000315}}
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+  color: red; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/A\:\/OSPanel\/domains\/bootstrapLandingPage1\/_html\/css\/sass\/main\.sass}line{font-family:\0000318}}
+body input:required:valid,
+body textarea:required:valid {
+  color: green; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/A\:\/OSPanel\/domains\/bootstrapLandingPage1\/_html\/css\/sass\/main\.sass}line{font-family:\0000322}}
+* {
+  margin: 0;
+  padding: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/A\:\/OSPanel\/domains\/bootstrapLandingPage1\/_html\/css\/sass\/main\.sass}line{font-family:\0000326}}
+button:visited,
+button:focus,
+button:active,
+button:hover,
+.btn:visited,
+.btn:focus,
+.btn:active,
+.btn:hover,
+input:visited,
+input:focus,
+input:active,
+input:hover {
+  outline: 0 none !important; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/A\:\/OSPanel\/domains\/bootstrapLandingPage1\/_html\/css\/sass\/main\.sass}line{font-family:\0000340}}
+.s_title {
+  font-family: "HelveticaNeueBold", sans-serif;
+  font-size: 36px;
+  text-align: center;
+  margin: 0;
+  margin-top: 90px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/A\:\/OSPanel\/domains\/bootstrapLandingPage1\/_html\/css\/sass\/main\.sass}line{font-family:\0000347}}
+.s_title_p {
+  font-family: "HelveticaNeueLight", sans-serif;
+  font-size: 20px;
+  text-align: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/A\:\/OSPanel\/domains\/bootstrapLandingPage1\/_html\/css\/sass\/main\.sass}line{font-family:\0000352}}
+.s_line {
+  width: 47px;
+  height: 5px;
+  margin: auto;
+  margin-top: 15px;
+  background-color: #424242; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/A\:\/OSPanel\/domains\/bootstrapLandingPage1\/_html\/css\/sass\/main\.sass}line{font-family:\0000359}}
+a {
+  color: #111; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/A\:\/OSPanel\/domains\/bootstrapLandingPage1\/_html\/css\/sass\/main\.sass}line{font-family:\0000362}}
+a:visited,
+a:focus,
+a:active {
+  text-decoration: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/A\:\/OSPanel\/domains\/bootstrapLandingPage1\/_html\/css\/sass\/main\.sass}line{font-family:\0000367}}
+a:hover {
+  color: #de2b24;
+  cursor: pointer;
+  -webkit-transition: 0.5s;
+  transition: 0.5s; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/A\:\/OSPanel\/domains\/bootstrapLandingPage1\/_html\/css\/sass\/main\.sass}line{font-family:\0000372}}
+.fixed {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  -webkit-transition: 0.5s;
+  transition: 0.5s; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/A\:\/OSPanel\/domains\/bootstrapLandingPage1\/_html\/css\/sass\/main\.sass}line{font-family:\0000378}}
+.hidden {
+  display: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/A\:\/OSPanel\/domains\/bootstrapLandingPage1\/_html\/css\/sass\/main\.sass}line{font-family:\0000381}}
+.contacts {
+  height: 50px;
+  background-color: #f0f2f4;
+  border-bottom: 1px solid #e2e2e2;
+  position: relative;
+  z-index: 1; }
+@media -sass-debug-info{filename{font-family:file\:\/\/A\:\/OSPanel\/domains\/bootstrapLandingPage1\/_html\/css\/sass\/main\.sass}line{font-family:\0000387}}
+  .contacts .c_element {
+    display: inline-block;
+    white-space: nowrap; }
+@media -sass-debug-info{filename{font-family:file\:\/\/A\:\/OSPanel\/domains\/bootstrapLandingPage1\/_html\/css\/sass\/main\.sass}line{font-family:\0000390}}
+    .contacts .c_element p {
+      font-family: "Helvetica-Normal", sans-serif; }
+@media -sass-debug-info{filename{font-family:file\:\/\/A\:\/OSPanel\/domains\/bootstrapLandingPage1\/_html\/css\/sass\/main\.sass}line{font-family:\0000392}}
+  .contacts .c_phone {
+    margin-right: 5px;
+    margin-bottom: 5px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/A\:\/OSPanel\/domains\/bootstrapLandingPage1\/_html\/css\/sass\/main\.sass}line{font-family:\0000395}}
+  .contacts p:nth-child(2) {
+    margin-right: 40px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/A\:\/OSPanel\/domains\/bootstrapLandingPage1\/_html\/css\/sass\/main\.sass}line{font-family:\0000397}}
+  .contacts .c_mail {
+    margin-right: 5px;
+    margin-left: 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/A\:\/OSPanel\/domains\/bootstrapLandingPage1\/_html\/css\/sass\/main\.sass}line{font-family:\00003100}}
+  .contacts .c_line {
+    height: 50px;
+    width: 1px;
+    background-color: #e2e2e2;
+    position: absolute; }
+@media -sass-debug-info{filename{font-family:file\:\/\/A\:\/OSPanel\/domains\/bootstrapLandingPage1\/_html\/css\/sass\/main\.sass}line{font-family:\00003105}}
+  .contacts .c_f {
+    margin-left: 10px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/A\:\/OSPanel\/domains\/bootstrapLandingPage1\/_html\/css\/sass\/main\.sass}line{font-family:\00003108}}
+.con_el1, .con_el2 {
+  margin-top: 13px;
+  display: inline-block; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/A\:\/OSPanel\/domains\/bootstrapLandingPage1\/_html\/css\/sass\/main\.sass}line{font-family:\00003113}}
+.touch-menu {
+  display: none;
+  float: right;
+  margin-top: 8px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/A\:\/OSPanel\/domains\/bootstrapLandingPage1\/_html\/css\/sass\/main\.sass}line{font-family:\00003118}}
+.top {
+  height: 130px;
+  z-index: 1;
+  background-color: #fff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/A\:\/OSPanel\/domains\/bootstrapLandingPage1\/_html\/css\/sass\/main\.sass}line{font-family:\00003122}}
+  .top img {
+    margin-top: 40px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/A\:\/OSPanel\/domains\/bootstrapLandingPage1\/_html\/css\/sass\/main\.sass}line{font-family:\00003124}}
+  .top .logo_h {
+    font-family: "HelveticaNeueBold", sans-serif;
+    font-size: 37px;
+    margin-top: 25px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/A\:\/OSPanel\/domains\/bootstrapLandingPage1\/_html\/css\/sass\/main\.sass}line{font-family:\00003128}}
+  .top .logo_p {
+    font-family: "HelveticaNeue", sans-serif;
+    color: #424242;
+    line-height: 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/A\:\/OSPanel\/domains\/bootstrapLandingPage1\/_html\/css\/sass\/main\.sass}line{font-family:\00003132}}
+  .top ul {
+    float: right; }
+@media -sass-debug-info{filename{font-family:file\:\/\/A\:\/OSPanel\/domains\/bootstrapLandingPage1\/_html\/css\/sass\/main\.sass}line{font-family:\00003134}}
+    .top ul li:nth-child(1) {
+      list-style-type: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/A\:\/OSPanel\/domains\/bootstrapLandingPage1\/_html\/css\/sass\/main\.sass}line{font-family:\00003136}}
+    .top ul li {
+      float: left;
+      font-family: "HelveticaNeueBold", sans-serif;
+      margin-left: 40px;
+      margin-top: 60px;
+      padding-left: 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/A\:\/OSPanel\/domains\/bootstrapLandingPage1\/_html\/css\/sass\/main\.sass}line{font-family:\00003142}}
+    .top ul li:last-child {
+      list-style-type: none;
+      margin-left: 20px;
+      margin-top: 45px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/A\:\/OSPanel\/domains\/bootstrapLandingPage1\/_html\/css\/sass\/main\.sass}line{font-family:\00003146}}
+    .top ul button {
+      color: #fff;
+      padding: 12px 23px;
+      background-color: #de2b24;
+      border: none;
+      border-radius: 5px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/A\:\/OSPanel\/domains\/bootstrapLandingPage1\/_html\/css\/sass\/main\.sass}line{font-family:\00003153}}
+header {
+  background: url(../img/h_bg.jpg) top center;
+  background-size: cover;
+  min-height: 590px;
+  font-family: "MyriadPro-Regular", sans-serif;
+  color: #fff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/A\:\/OSPanel\/domains\/bootstrapLandingPage1\/_html\/css\/sass\/main\.sass}line{font-family:\00003159}}
+  header .h_title {
+    text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/A\:\/OSPanel\/domains\/bootstrapLandingPage1\/_html\/css\/sass\/main\.sass}line{font-family:\00003161}}
+    header .h_title h1 {
+      font-size: 48px;
+      font-weight: normal;
+      margin-bottom: 0;
+      margin-top: 145px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/A\:\/OSPanel\/domains\/bootstrapLandingPage1\/_html\/css\/sass\/main\.sass}line{font-family:\00003166}}
+    header .h_title p {
+      font-size: 30px;
+      font-weight: normal; }
+@media -sass-debug-info{filename{font-family:file\:\/\/A\:\/OSPanel\/domains\/bootstrapLandingPage1\/_html\/css\/sass\/main\.sass}line{font-family:\00003169}}
+    header .h_title button {
+      color: #fff;
+      padding: 25px 40px;
+      background-color: #f8cd53;
+      border: none;
+      border-radius: 5px;
+      font-size: 24px;
+      margin-top: 35px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/A\:\/OSPanel\/domains\/bootstrapLandingPage1\/_html\/css\/sass\/main\.sass}line{font-family:\00003178}}
+.about_us {
+  height: 545px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/A\:\/OSPanel\/domains\/bootstrapLandingPage1\/_html\/css\/sass\/main\.sass}line{font-family:\00003180}}
+  .about_us .about_block {
+    margin-top: 45px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/A\:\/OSPanel\/domains\/bootstrapLandingPage1\/_html\/css\/sass\/main\.sass}line{font-family:\00003182}}
+    .about_us .about_block h1 {
+      margin: 0;
+      margin-top: 20px;
+      font-family: "HelveticaNeueBold", sans-serif;
+      font-size: 22px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/A\:\/OSPanel\/domains\/bootstrapLandingPage1\/_html\/css\/sass\/main\.sass}line{font-family:\00003187}}
+    .about_us .about_block p {
+      margin-top: 15px;
+      font-family: "OpenSans-Regular", sans-serif;
+      font-size: 13px;
+      color: #5c5c5c; }
+@media -sass-debug-info{filename{font-family:file\:\/\/A\:\/OSPanel\/domains\/bootstrapLandingPage1\/_html\/css\/sass\/main\.sass}line{font-family:\00003192}}
+    .about_us .about_block .like {
+      text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/A\:\/OSPanel\/domains\/bootstrapLandingPage1\/_html\/css\/sass\/main\.sass}line{font-family:\00003194}}
+    .about_us .about_block .book {
+      text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/A\:\/OSPanel\/domains\/bootstrapLandingPage1\/_html\/css\/sass\/main\.sass}line{font-family:\00003196}}
+    .about_us .about_block .ads {
+      text-align: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/A\:\/OSPanel\/domains\/bootstrapLandingPage1\/_html\/css\/sass\/main\.sass}line{font-family:\00003199}}
+.our_approch {
+  background-color: #f3f3f3;
+  height: 1405px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/A\:\/OSPanel\/domains\/bootstrapLandingPage1\/_html\/css\/sass\/main\.sass}line{font-family:\00003202}}
+  .our_approch .step1_md, .our_approch .step2_md, .our_approch .step3_md, .our_approch .step4_md {
+    margin-left: 60px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/A\:\/OSPanel\/domains\/bootstrapLandingPage1\/_html\/css\/sass\/main\.sass}line{font-family:\00003204}}
+  .our_approch .step1_sm, .our_approch .step2_sm, .our_approch .step3_sm, .our_approch .step4_sm {
+    display: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/A\:\/OSPanel\/domains\/bootstrapLandingPage1\/_html\/css\/sass\/main\.sass}line{font-family:\00003206}}
+  .our_approch .step1_md, .our_approch .step1_sm {
+    width: 1020px;
+    background-color: #fff;
+    border-radius: 3px 0 0 3px;
+    -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    margin-top: 45px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/A\:\/OSPanel\/domains\/bootstrapLandingPage1\/_html\/css\/sass\/main\.sass}line{font-family:\00003212}}
+    .our_approch .step1_md img, .our_approch .step1_sm img {
+      width: 340px;
+      height: 240px;
+      border-radius: 3px 0 0 3px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/A\:\/OSPanel\/domains\/bootstrapLandingPage1\/_html\/css\/sass\/main\.sass}line{font-family:\00003216}}
+    .our_approch .step1_md .step_block, .our_approch .step1_sm .step_block {
+      width: 101px;
+      height: 101px;
+      background-color: #de2b24;
+      border: 2px solid #fff;
+      border-radius: 4px;
+      position: absolute;
+      bottom: 70px;
+      left: 353px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/A\:\/OSPanel\/domains\/bootstrapLandingPage1\/_html\/css\/sass\/main\.sass}line{font-family:\00003225}}
+      .our_approch .step1_md .step_block h1, .our_approch .step1_sm .step_block h1 {
+        color: #fff;
+        font-family: "GeorgiaBold", sans-serif;
+        font-size: 60px;
+        margin: 0;
+        line-height: 42px;
+        margin-left: 33px;
+        margin-top: 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/A\:\/OSPanel\/domains\/bootstrapLandingPage1\/_html\/css\/sass\/main\.sass}line{font-family:\00003233}}
+      .our_approch .step1_md .step_block p, .our_approch .step1_sm .step_block p {
+        color: #fff;
+        font-family: "Helvetica-Normal", sans-serif;
+        font-size: 20px;
+        margin-left: 29px;
+        margin-top: 5px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/A\:\/OSPanel\/domains\/bootstrapLandingPage1\/_html\/css\/sass\/main\.sass}line{font-family:\00003239}}
+    .our_approch .step1_md .step_text, .our_approch .step1_sm .step_text {
+      float: right;
+      margin-right: 70px;
+      margin-top: 60px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/A\:\/OSPanel\/domains\/bootstrapLandingPage1\/_html\/css\/sass\/main\.sass}line{font-family:\00003243}}
+      .our_approch .step1_md .step_text h1, .our_approch .step1_sm .step_text h1 {
+        font-family: "HelveticaNeueBold", sans-serif;
+        font-size: 18px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/A\:\/OSPanel\/domains\/bootstrapLandingPage1\/_html\/css\/sass\/main\.sass}line{font-family:\00003246}}
+      .our_approch .step1_md .step_text p, .our_approch .step1_sm .step_text p {
+        font-family: "OpenSans-Regular", sans-serif;
+        font-size: 13px;
+        color: #5c5c5c; }
+@media -sass-debug-info{filename{font-family:file\:\/\/A\:\/OSPanel\/domains\/bootstrapLandingPage1\/_html\/css\/sass\/main\.sass}line{font-family:\00003250}}
+  .our_approch .step2_md, .our_approch .step2_sm {
+    width: 1020px;
+    background-color: #fff;
+    -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    height: 240px;
+    margin-top: 40px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/A\:\/OSPanel\/domains\/bootstrapLandingPage1\/_html\/css\/sass\/main\.sass}line{font-family:\00003256}}
+    .our_approch .step2_md img, .our_approch .step2_sm img {
+      float: right;
+      width: 340px;
+      height: 240px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/A\:\/OSPanel\/domains\/bootstrapLandingPage1\/_html\/css\/sass\/main\.sass}line{font-family:\00003260}}
+    .our_approch .step2_md .step_block, .our_approch .step2_sm .step_block {
+      width: 101px;
+      height: 101px;
+      background-color: #de2b24;
+      border: 2px solid #fff;
+      border-radius: 4px;
+      position: absolute;
+      bottom: 70px;
+      left: 705px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/A\:\/OSPanel\/domains\/bootstrapLandingPage1\/_html\/css\/sass\/main\.sass}line{font-family:\00003269}}
+      .our_approch .step2_md .step_block h1, .our_approch .step2_sm .step_block h1 {
+        color: #fff;
+        font-family: "GeorgiaBold", sans-serif;
+        font-size: 60px;
+        margin: 0;
+        line-height: 42px;
+        margin-left: 33px;
+        margin-top: 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/A\:\/OSPanel\/domains\/bootstrapLandingPage1\/_html\/css\/sass\/main\.sass}line{font-family:\00003277}}
+      .our_approch .step2_md .step_block p, .our_approch .step2_sm .step_block p {
+        color: #fff;
+        font-family: "Helvetica-Normal", sans-serif;
+        font-size: 20px;
+        margin-left: 29px;
+        margin-top: 5px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/A\:\/OSPanel\/domains\/bootstrapLandingPage1\/_html\/css\/sass\/main\.sass}line{font-family:\00003283}}
+    .our_approch .step2_md .step_text, .our_approch .step2_sm .step_text {
+      padding-top: 60px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/A\:\/OSPanel\/domains\/bootstrapLandingPage1\/_html\/css\/sass\/main\.sass}line{font-family:\00003285}}
+      .our_approch .step2_md .step_text h1, .our_approch .step2_sm .step_text h1 {
+        font-family: "HelveticaNeueBold", sans-serif;
+        font-size: 18px;
+        text-align: right;
+        margin-right: 445px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/A\:\/OSPanel\/domains\/bootstrapLandingPage1\/_html\/css\/sass\/main\.sass}line{font-family:\00003290}}
+      .our_approch .step2_md .step_text p, .our_approch .step2_sm .step_text p {
+        font-family: "OpenSans-Regular", sans-serif;
+        font-size: 13px;
+        color: #5c5c5c;
+        text-align: right;
+        margin-right: 430px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/A\:\/OSPanel\/domains\/bootstrapLandingPage1\/_html\/css\/sass\/main\.sass}line{font-family:\00003296}}
+  .our_approch .step3_md, .our_approch .step3_sm {
+    width: 1020px;
+    background-color: #fff;
+    border-radius: 3px 0 0 3px;
+    -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    margin-top: 45px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/A\:\/OSPanel\/domains\/bootstrapLandingPage1\/_html\/css\/sass\/main\.sass}line{font-family:\00003302}}
+    .our_approch .step3_md img, .our_approch .step3_sm img {
+      width: 340px;
+      height: 240px;
+      border-radius: 3px 0 0 3px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/A\:\/OSPanel\/domains\/bootstrapLandingPage1\/_html\/css\/sass\/main\.sass}line{font-family:\00003306}}
+    .our_approch .step3_md .step_block, .our_approch .step3_sm .step_block {
+      width: 101px;
+      height: 101px;
+      background-color: #de2b24;
+      border: 2px solid #fff;
+      border-radius: 4px;
+      position: absolute;
+      bottom: 70px;
+      left: 365px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/A\:\/OSPanel\/domains\/bootstrapLandingPage1\/_html\/css\/sass\/main\.sass}line{font-family:\00003315}}
+      .our_approch .step3_md .step_block h1, .our_approch .step3_sm .step_block h1 {
+        color: #fff;
+        font-family: "GeorgiaBold", sans-serif;
+        font-size: 60px;
+        margin: 0;
+        line-height: 42px;
+        margin-left: 33px;
+        margin-top: 8px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/A\:\/OSPanel\/domains\/bootstrapLandingPage1\/_html\/css\/sass\/main\.sass}line{font-family:\00003323}}
+      .our_approch .step3_md .step_block p, .our_approch .step3_sm .step_block p {
+        color: #fff;
+        font-family: "Helvetica-Normal", sans-serif;
+        font-size: 20px;
+        margin-left: 29px;
+        margin-top: 15px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/A\:\/OSPanel\/domains\/bootstrapLandingPage1\/_html\/css\/sass\/main\.sass}line{font-family:\00003329}}
+    .our_approch .step3_md .step_text, .our_approch .step3_sm .step_text {
+      float: right;
+      margin-right: 70px;
+      margin-top: 60px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/A\:\/OSPanel\/domains\/bootstrapLandingPage1\/_html\/css\/sass\/main\.sass}line{font-family:\00003333}}
+      .our_approch .step3_md .step_text h1, .our_approch .step3_sm .step_text h1 {
+        font-family: "HelveticaNeueBold", sans-serif;
+        font-size: 18px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/A\:\/OSPanel\/domains\/bootstrapLandingPage1\/_html\/css\/sass\/main\.sass}line{font-family:\00003336}}
+      .our_approch .step3_md .step_text p, .our_approch .step3_sm .step_text p {
+        font-family: "OpenSans-Regular", sans-serif;
+        font-size: 13px;
+        color: #5c5c5c; }
+@media -sass-debug-info{filename{font-family:file\:\/\/A\:\/OSPanel\/domains\/bootstrapLandingPage1\/_html\/css\/sass\/main\.sass}line{font-family:\00003340}}
+  .our_approch .step4_md, .our_approch .step4_sm {
+    width: 1020px;
+    background-color: #fff;
+    -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    margin-top: 40px;
+    height: 240px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/A\:\/OSPanel\/domains\/bootstrapLandingPage1\/_html\/css\/sass\/main\.sass}line{font-family:\00003346}}
+    .our_approch .step4_md img, .our_approch .step4_sm img {
+      float: right;
+      width: 340px;
+      height: 240px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/A\:\/OSPanel\/domains\/bootstrapLandingPage1\/_html\/css\/sass\/main\.sass}line{font-family:\00003350}}
+    .our_approch .step4_md .step_block, .our_approch .step4_sm .step_block {
+      width: 101px;
+      height: 101px;
+      background-color: #de2b24;
+      border: 2px solid #fff;
+      border-radius: 4px;
+      position: absolute;
+      bottom: 70px;
+      left: 705px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/A\:\/OSPanel\/domains\/bootstrapLandingPage1\/_html\/css\/sass\/main\.sass}line{font-family:\00003359}}
+      .our_approch .step4_md .step_block h1, .our_approch .step4_sm .step_block h1 {
+        color: #fff;
+        font-family: "GeorgiaBold", sans-serif;
+        font-size: 60px;
+        margin: 0;
+        line-height: 42px;
+        margin-left: 33px;
+        margin-top: 8px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/A\:\/OSPanel\/domains\/bootstrapLandingPage1\/_html\/css\/sass\/main\.sass}line{font-family:\00003367}}
+      .our_approch .step4_md .step_block p, .our_approch .step4_sm .step_block p {
+        color: #fff;
+        font-family: "Helvetica-Normal", sans-serif;
+        font-size: 20px;
+        margin-left: 29px;
+        margin-top: 15px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/A\:\/OSPanel\/domains\/bootstrapLandingPage1\/_html\/css\/sass\/main\.sass}line{font-family:\00003373}}
+    .our_approch .step4_md .step_text, .our_approch .step4_sm .step_text {
+      padding-top: 60px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/A\:\/OSPanel\/domains\/bootstrapLandingPage1\/_html\/css\/sass\/main\.sass}line{font-family:\00003375}}
+      .our_approch .step4_md .step_text h1, .our_approch .step4_sm .step_text h1 {
+        font-family: "HelveticaNeueBold", sans-serif;
+        font-size: 18px;
+        text-align: right;
+        margin-right: 445px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/A\:\/OSPanel\/domains\/bootstrapLandingPage1\/_html\/css\/sass\/main\.sass}line{font-family:\00003380}}
+      .our_approch .step4_md .step_text p, .our_approch .step4_sm .step_text p {
+        font-family: "OpenSans-Regular", sans-serif;
+        font-size: 13px;
+        color: #5c5c5c;
+        text-align: right;
+        margin-right: 430px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/A\:\/OSPanel\/domains\/bootstrapLandingPage1\/_html\/css\/sass\/main\.sass}line{font-family:\00003387}}
+.our_work {
+  background-color: #de2b24;
+  height: 870px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/A\:\/OSPanel\/domains\/bootstrapLandingPage1\/_html\/css\/sass\/main\.sass}line{font-family:\00003390}}
+  .our_work .s_title {
+    color: #424242; }
+@media -sass-debug-info{filename{font-family:file\:\/\/A\:\/OSPanel\/domains\/bootstrapLandingPage1\/_html\/css\/sass\/main\.sass}line{font-family:\00003392}}
+  .our_work .s_title_p {
+    color: #424242; }
+@media -sass-debug-info{filename{font-family:file\:\/\/A\:\/OSPanel\/domains\/bootstrapLandingPage1\/_html\/css\/sass\/main\.sass}line{font-family:\00003394}}
+  .our_work .s_line {
+    background-color: #f3f3f3; }
+@media -sass-debug-info{filename{font-family:file\:\/\/A\:\/OSPanel\/domains\/bootstrapLandingPage1\/_html\/css\/sass\/main\.sass}line{font-family:\00003396}}
+  .our_work .w_blocks1 {
+    margin-top: 47px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/A\:\/OSPanel\/domains\/bootstrapLandingPage1\/_html\/css\/sass\/main\.sass}line{font-family:\00003398}}
+  .our_work .w_block_sm {
+    display: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/A\:\/OSPanel\/domains\/bootstrapLandingPage1\/_html\/css\/sass\/main\.sass}line{font-family:\00003400}}
+  .our_work .w_block_md {
+    width: 253px;
+    height: 253px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/A\:\/OSPanel\/domains\/bootstrapLandingPage1\/_html\/css\/sass\/main\.sass}line{font-family:\00003403}}
+    .our_work .w_block_md .w_text {
+      text-align: center;
+      padding-top: 75px;
+      color: #fff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/A\:\/OSPanel\/domains\/bootstrapLandingPage1\/_html\/css\/sass\/main\.sass}line{font-family:\00003407}}
+      .our_work .w_block_md .w_text h1 {
+        margin: 0;
+        margin-top: 25px;
+        font-size: 26px;
+        font-family: "HelveticaNeueBold", sans-serif; }
+@media -sass-debug-info{filename{font-family:file\:\/\/A\:\/OSPanel\/domains\/bootstrapLandingPage1\/_html\/css\/sass\/main\.sass}line{font-family:\00003412}}
+      .our_work .w_block_md .w_text p {
+        font-size: 16px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/A\:\/OSPanel\/domains\/bootstrapLandingPage1\/_html\/css\/sass\/main\.sass}line{font-family:\00003414}}
+  .our_work .w_block_sm {
+    width: 253px;
+    height: 253px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/A\:\/OSPanel\/domains\/bootstrapLandingPage1\/_html\/css\/sass\/main\.sass}line{font-family:\00003417}}
+    .our_work .w_block_sm .w_text {
+      text-align: center;
+      padding-top: 75px;
+      color: #fff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/A\:\/OSPanel\/domains\/bootstrapLandingPage1\/_html\/css\/sass\/main\.sass}line{font-family:\00003421}}
+      .our_work .w_block_sm .w_text h1 {
+        margin: 0;
+        margin-top: 25px;
+        font-size: 26px;
+        font-family: "HelveticaNeueBold", sans-serif; }
+@media -sass-debug-info{filename{font-family:file\:\/\/A\:\/OSPanel\/domains\/bootstrapLandingPage1\/_html\/css\/sass\/main\.sass}line{font-family:\00003426}}
+      .our_work .w_block_sm .w_text p {
+        font-size: 16px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/A\:\/OSPanel\/domains\/bootstrapLandingPage1\/_html\/css\/sass\/main\.sass}line{font-family:\00003428}}
+  .our_work .red {
+    background-color: #f35e59; }
+@media -sass-debug-info{filename{font-family:file\:\/\/A\:\/OSPanel\/domains\/bootstrapLandingPage1\/_html\/css\/sass\/main\.sass}line{font-family:\00003430}}
+  .our_work .r1, .our_work .bridge {
+    margin-left: 59px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/A\:\/OSPanel\/domains\/bootstrapLandingPage1\/_html\/css\/sass\/main\.sass}line{font-family:\00003432}}
+  .our_work .r2, .our_work .path {
+    margin-left: -15px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/A\:\/OSPanel\/domains\/bootstrapLandingPage1\/_html\/css\/sass\/main\.sass}line{font-family:\00003434}}
+  .our_work .camera, .our_work .r3 {
+    margin-left: 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/A\:\/OSPanel\/domains\/bootstrapLandingPage1\/_html\/css\/sass\/main\.sass}line{font-family:\00003436}}
+  .our_work .tree, .our_work .r4 {
+    margin-left: -54px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/A\:\/OSPanel\/domains\/bootstrapLandingPage1\/_html\/css\/sass\/main\.sass}line{font-family:\00003438}}
+  .our_work .r3 {
+    width: 257px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/A\:\/OSPanel\/domains\/bootstrapLandingPage1\/_html\/css\/sass\/main\.sass}line{font-family:\00003440}}
+  .our_work .r4 {
+    width: 255px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/A\:\/OSPanel\/domains\/bootstrapLandingPage1\/_html\/css\/sass\/main\.sass}line{font-family:\00003443}}
+.analys {
+  background-color: #1287bf;
+  height: 848px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/A\:\/OSPanel\/domains\/bootstrapLandingPage1\/_html\/css\/sass\/main\.sass}line{font-family:\00003446}}
+  .analys .s_title {
+    color: #fff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/A\:\/OSPanel\/domains\/bootstrapLandingPage1\/_html\/css\/sass\/main\.sass}line{font-family:\00003448}}
+  .analys .s_title_p {
+    color: #fff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/A\:\/OSPanel\/domains\/bootstrapLandingPage1\/_html\/css\/sass\/main\.sass}line{font-family:\00003450}}
+  .analys .form_sm, .analys .form_xs {
+    display: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/A\:\/OSPanel\/domains\/bootstrapLandingPage1\/_html\/css\/sass\/main\.sass}line{font-family:\00003452}}
+  .analys .form_md, .analys .form_sm, .analys .form_xs {
+    text-align: center;
+    margin-top: 15px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/A\:\/OSPanel\/domains\/bootstrapLandingPage1\/_html\/css\/sass\/main\.sass}line{font-family:\00003455}}
+    .analys .form_md .box, .analys .form_sm .box, .analys .form_xs .box {
+      background: url(../img/form.png) center no-repeat;
+      width: 685px;
+      height: 479px;
+      margin-top: 22px;
+      margin: auto; }
+@media -sass-debug-info{filename{font-family:file\:\/\/A\:\/OSPanel\/domains\/bootstrapLandingPage1\/_html\/css\/sass\/main\.sass}line{font-family:\00003461}}
+      .analys .form_md .box h1, .analys .form_sm .box h1, .analys .form_xs .box h1 {
+        font-family: "Helvetica-Normal", sans-serif;
+        font-size: 15px;
+        font-weight: normal;
+        color: #828282;
+        padding-top: 75px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/A\:\/OSPanel\/domains\/bootstrapLandingPage1\/_html\/css\/sass\/main\.sass}line{font-family:\00003467}}
+      .analys .form_md .box .form_input, .analys .form_sm .box .form_input, .analys .form_xs .box .form_input {
+        width: 445px;
+        height: 52px;
+        margin-top: 12px;
+        border-radius: 4px;
+        border: 1px solid #d8d8d8;
+        padding-left: 18px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/A\:\/OSPanel\/domains\/bootstrapLandingPage1\/_html\/css\/sass\/main\.sass}line{font-family:\00003474}}
+      .analys .form_md .box .form_input::-webkit-input-placeholder, .analys .form_sm .box .form_input::-webkit-input-placeholder, .analys .form_xs .box .form_input::-webkit-input-placeholder {
+        color: #b0b0b0;
+        font-size: 14px; }
+      .analys .form_md .box .form_input:-ms-input-placeholder, .analys .form_sm .box .form_input:-ms-input-placeholder, .analys .form_xs .box .form_input:-ms-input-placeholder {
+        color: #b0b0b0;
+        font-size: 14px; }
+      .analys .form_md .box .form_input::-ms-input-placeholder, .analys .form_sm .box .form_input::-ms-input-placeholder, .analys .form_xs .box .form_input::-ms-input-placeholder {
+        color: #b0b0b0;
+        font-size: 14px; }
+      .analys .form_md .box .form_input::placeholder, .analys .form_sm .box .form_input::placeholder, .analys .form_xs .box .form_input::placeholder {
+        color: #b0b0b0;
+        font-size: 14px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/A\:\/OSPanel\/domains\/bootstrapLandingPage1\/_html\/css\/sass\/main\.sass}line{font-family:\00003477}}
+      .analys .form_md .box .form_input:visited,
+      .analys .form_md .box .form_input:focus,
+      .analys .form_md .box .form_input:active, .analys .form_sm .box .form_input:visited,
+      .analys .form_sm .box .form_input:focus,
+      .analys .form_sm .box .form_input:active, .analys .form_xs .box .form_input:visited,
+      .analys .form_xs .box .form_input:focus,
+      .analys .form_xs .box .form_input:active {
+        outline: 1px solid #1287bf;
+        -webkit-box-shadow: 0 0 5px #1287bf;
+                box-shadow: 0 0 5px #1287bf;
+        border: 1px solid #1287bf; }
+@media -sass-debug-info{filename{font-family:file\:\/\/A\:\/OSPanel\/domains\/bootstrapLandingPage1\/_html\/css\/sass\/main\.sass}line{font-family:\00003483}}
+      .analys .form_md .box .form_input:nth-child(1), .analys .form_sm .box .form_input:nth-child(1), .analys .form_xs .box .form_input:nth-child(1) {
+        margin-top: 25px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/A\:\/OSPanel\/domains\/bootstrapLandingPage1\/_html\/css\/sass\/main\.sass}line{font-family:\00003485}}
+      .analys .form_md .box .btn, .analys .form_sm .box .btn, .analys .form_xs .box .btn {
+        width: 160px;
+        height: 46px;
+        margin-top: 36px;
+        border-radius: 3px;
+        border: none;
+        font-family: "HelveticaNeueBold", sans-serif;
+        font-size: 15px;
+        text-transform: uppercase;
+        color: #fff;
+        background-color: #de2b24; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/A\:\/OSPanel\/domains\/bootstrapLandingPage1\/_html\/css\/sass\/main\.sass}line{font-family:\00003497}}
+.get {
+  background-color: #2a2a2a;
+  text-align: center;
+  height: 490px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/A\:\/OSPanel\/domains\/bootstrapLandingPage1\/_html\/css\/sass\/main\.sass}line{font-family:\00003501}}
+  .get .s_title {
+    font-size: 29px;
+    color: #fff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/A\:\/OSPanel\/domains\/bootstrapLandingPage1\/_html\/css\/sass\/main\.sass}line{font-family:\00003504}}
+  .get img {
+    margin-top: 25px;
+    margin-left: 20px;
+    border: 2px solid #515151;
+    border-radius: 3px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/A\:\/OSPanel\/domains\/bootstrapLandingPage1\/_html\/css\/sass\/main\.sass}line{font-family:\00003509}}
+  .get img:hover {
+    border: 2px solid #de2b24;
+    border-radius: 3px;
+    cursor: pointer;
+    -webkit-transition: 0.5s;
+    transition: 0.5s; }
+@media -sass-debug-info{filename{font-family:file\:\/\/A\:\/OSPanel\/domains\/bootstrapLandingPage1\/_html\/css\/sass\/main\.sass}line{font-family:\00003514}}
+  .get h1 {
+    font-family: "OpenSans-Regular", sans-serif;
+    font-size: 14px;
+    color: #cecece;
+    margin-top: 30px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/A\:\/OSPanel\/domains\/bootstrapLandingPage1\/_html\/css\/sass\/main\.sass}line{font-family:\00003519}}
+  .get input {
+    display: table;
+    margin: auto; }
+@media -sass-debug-info{filename{font-family:file\:\/\/A\:\/OSPanel\/domains\/bootstrapLandingPage1\/_html\/css\/sass\/main\.sass}line{font-family:\00003522}}
+  .get .g_email {
+    width: 685px;
+    height: 55px;
+    border-radius: 2px;
+    border: none;
+    margin-top: 35px;
+    padding-left: 22px;
+    background-color: #515151; }
+@media -sass-debug-info{filename{font-family:file\:\/\/A\:\/OSPanel\/domains\/bootstrapLandingPage1\/_html\/css\/sass\/main\.sass}line{font-family:\00003530}}
+  .get .g_email::-webkit-input-placeholder {
+    color: #cecece;
+    font-size: 14px;
+    font-family: "OpenSans-Regular", sans-serif; }
+  .get .g_email:-ms-input-placeholder {
+    color: #cecece;
+    font-size: 14px;
+    font-family: "OpenSans-Regular", sans-serif; }
+  .get .g_email::-ms-input-placeholder {
+    color: #cecece;
+    font-size: 14px;
+    font-family: "OpenSans-Regular", sans-serif; }
+  .get .g_email::placeholder {
+    color: #cecece;
+    font-size: 14px;
+    font-family: "OpenSans-Regular", sans-serif; }
+@media -sass-debug-info{filename{font-family:file\:\/\/A\:\/OSPanel\/domains\/bootstrapLandingPage1\/_html\/css\/sass\/main\.sass}line{font-family:\00003534}}
+  .get .g_sub {
+    width: 150px;
+    height: 50px;
+    margin-top: 30px;
+    border-radius: 2px;
+    border: 2px solid #515151;
+    background-color: #2a2a2a;
+    font-family: "HelveticaNeueBold", sans-serif;
+    font-size: 17px;
+    color: #fff; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/A\:\/OSPanel\/domains\/bootstrapLandingPage1\/_html\/css\/sass\/main\.sass}line{font-family:\00003545}}
+.copyright {
+  background-color: #515151;
+  height: 60px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/A\:\/OSPanel\/domains\/bootstrapLandingPage1\/_html\/css\/sass\/main\.sass}line{font-family:\00003548}}
+  .copyright h1 {
+    font-family: "OpenSans-Regular", sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    color: #cecece;
+    text-align: center;
+    margin: 0;
+    margin-top: 21px; }
+
+/*# sourceMappingURL=main.css.map */

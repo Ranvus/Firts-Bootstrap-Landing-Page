@@ -1,0 +1,555 @@
+@import "node_modules/bourbon/core/bourbon"
+
+$red-color: #de2b24
+
+body
+	font-family: "HelveticaNeue", sans-serif
+	font-weight: normal
+	font-size: 15px
+	min-width: 320px
+	position: relative
+	line-height: 1.42857
+	-webkit-font-smoothing: antialised
+	color: #424242
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid
+	color: red
+body input:required:valid,
+body textarea:required:valid
+	color: green
+
+*
+	margin: 0
+	padding: 0
+
+button:visited, 
+button:focus, 
+button:active, 
+button:hover,
+.btn:visited, 
+.btn:focus, 
+.btn:active, 
+.btn:hover,
+input:visited, 
+input:focus, 
+input:active, 
+input:hover
+	outline: 0 none !important
+
+.s_title
+	font-family: "HelveticaNeueBold", sans-serif
+	font-size: 36px
+	text-align: center
+	margin: 0
+	margin-top: 90px
+
+.s_title_p
+	font-family: "HelveticaNeueLight", sans-serif
+	font-size: 20px
+	text-align: center
+
+.s_line
+	width: 47px
+	height: 5px
+	margin: auto
+	margin-top: 15px
+	background-color: #424242
+
+a
+	color: #111
+
+a:visited, 
+a:focus, 
+a:active
+	text-decoration: none
+
+a:hover
+	color: $red-color
+	cursor: pointer
+	transition: .5s
+
+.fixed
+	position: fixed
+	top: 0
+	width: 100%
+	transition: .5s
+
+.hidden
+	display: none
+
+.contacts
+	height: 50px
+	background-color: #f0f2f4
+	border-bottom: 1px solid #e2e2e2
+	position: relative
+	z-index: 1
+	.c_element
+		display: inline-block
+		white-space: nowrap
+		p
+			font-family: "Helvetica-Normal", sans-serif
+	.c_phone
+		margin-right: 5px
+		margin-bottom: 5px
+	p:nth-child(2)
+		margin-right: 40px
+	.c_mail
+		margin-right: 5px
+		margin-left: 20px
+	.c_line
+		height: 50px
+		width: 1px
+		background-color: #e2e2e2
+		position: absolute
+	.c_f
+		margin-left: 10px
+
+.con_el1, .con_el2
+	margin-top: 13px
+	display: inline-block
+
+
+.touch-menu
+	display: none
+	float: right
+	margin-top: 8px
+
+.top
+	height: 130px
+	z-index: 1
+	background-color: #fff
+	img
+		margin-top: 40px
+	.logo_h
+		font-family: "HelveticaNeueBold", sans-serif
+		font-size: 37px
+		margin-top: 25px
+	.logo_p
+		font-family: "HelveticaNeue", sans-serif
+		color: #424242
+		line-height: 10px
+	ul
+		float: right
+		li:nth-child(1)
+			list-style-type: none
+		li
+			float: left
+			font-family: "HelveticaNeueBold", sans-serif
+			margin-left: 40px
+			margin-top: 60px
+			padding-left: 10px
+		li:last-child
+			list-style-type: none
+			margin-left: 20px
+			margin-top: 45px
+		button
+			color: #fff
+			padding: 12px 23px
+			background-color: $red-color
+			border: none
+			border-radius: 5px
+
+header
+	background: url(../img/h_bg.jpg) top center 
+	background-size: cover
+	min-height: 590px
+	font-family: "MyriadPro-Regular", sans-serif
+	color: #fff
+	.h_title
+		text-align: center
+		h1
+			font-size: 48px
+			font-weight: normal
+			margin-bottom: 0
+			margin-top: 145px
+		p
+			font-size: 30px
+			font-weight: normal
+		button
+			color: #fff
+			padding: 25px 40px
+			background-color: #f8cd53
+			border: none
+			border-radius: 5px
+			font-size: 24px
+			margin-top: 35px
+
+.about_us
+	height: 545px
+	.about_block
+		margin-top: 45px
+		h1
+			margin: 0
+			margin-top: 20px
+			font-family: "HelveticaNeueBold", sans-serif
+			font-size: 22px
+		p
+			margin-top: 15px
+			font-family: "OpenSans-Regular", sans-serif
+			font-size: 13px
+			color: #5c5c5c
+		.like
+			text-align: center
+		.book
+			text-align: center
+		.ads
+			text-align: center
+
+.our_approch
+	background-color: #f3f3f3
+	height: 1405px
+	.step1_md, .step2_md, .step3_md, .step4_md
+		margin-left: 60px
+	.step1_sm, .step2_sm, .step3_sm, .step4_sm
+		display: none
+	.step1_md, .step1_sm
+		width: 1020px
+		background-color: #fff
+		border-radius: 3px 0 0 3px
+		box-shadow: 0 0 5px rgba(0,0,0,0.1)
+		margin-top: 45px
+		img
+			width: 340px
+			height: 240px
+			border-radius: 3px 0 0 3px
+		.step_block
+			width: 101px
+			height: 101px
+			background-color: $red-color
+			border: 2px solid #fff
+			border-radius: 4px
+			position: absolute
+			bottom: 70px
+			left: 353px
+			h1
+				color: #fff
+				font-family: "GeorgiaBold", sans-serif
+				font-size: 60px
+				margin: 0
+				line-height: 42px
+				margin-left: 33px
+				margin-top: 10px
+			p
+				color: #fff
+				font-family: "Helvetica-Normal", sans-serif
+				font-size: 20px
+				margin-left: 29px
+				margin-top: 5px
+		.step_text
+			float: right
+			margin-right: 70px
+			margin-top: 60px
+			h1
+				font-family: "HelveticaNeueBold", sans-serif
+				font-size: 18px
+			p
+				font-family: "OpenSans-Regular", sans-serif
+				font-size: 13px
+				color: #5c5c5c
+	.step2_md, .step2_sm
+		width: 1020px
+		background-color: #fff
+		box-shadow: 0 0 5px rgba(0,0,0,0.1)
+		height: 240px
+		margin-top: 40px
+		img
+			float: right
+			width: 340px
+			height: 240px
+		.step_block
+			width: 101px
+			height: 101px
+			background-color: $red-color
+			border: 2px solid #fff
+			border-radius: 4px
+			position: absolute
+			bottom: 70px
+			left: 705px
+			h1
+				color: #fff
+				font-family: "GeorgiaBold", sans-serif
+				font-size: 60px
+				margin: 0
+				line-height: 42px
+				margin-left: 33px
+				margin-top: 10px
+			p
+				color: #fff
+				font-family: "Helvetica-Normal", sans-serif
+				font-size: 20px
+				margin-left: 29px
+				margin-top: 5px
+		.step_text
+			padding-top: 60px
+			h1
+				font-family: "HelveticaNeueBold", sans-serif
+				font-size: 18px
+				text-align: right
+				margin-right: 445px
+			p
+				font-family: "OpenSans-Regular", sans-serif
+				font-size: 13px
+				color: #5c5c5c
+				text-align: right
+				margin-right: 430px
+	.step3_md, .step3_sm
+		width: 1020px
+		background-color: #fff
+		border-radius: 3px 0 0 3px
+		box-shadow: 0 0 5px rgba(0,0,0,0.1)
+		margin-top: 45px
+		img
+			width: 340px
+			height: 240px
+			border-radius: 3px 0 0 3px
+		.step_block
+			width: 101px
+			height: 101px
+			background-color: $red-color
+			border: 2px solid #fff
+			border-radius: 4px
+			position: absolute
+			bottom: 70px
+			left: 365px
+			h1
+				color: #fff
+				font-family: "GeorgiaBold", sans-serif
+				font-size: 60px
+				margin: 0
+				line-height: 42px
+				margin-left: 33px
+				margin-top: 8px
+			p
+				color: #fff
+				font-family: "Helvetica-Normal", sans-serif
+				font-size: 20px
+				margin-left: 29px
+				margin-top: 15px
+		.step_text
+			float: right
+			margin-right: 70px
+			margin-top: 60px
+			h1
+				font-family: "HelveticaNeueBold", sans-serif
+				font-size: 18px
+			p
+				font-family: "OpenSans-Regular", sans-serif
+				font-size: 13px
+				color: #5c5c5c
+	.step4_md, .step4_sm
+		width: 1020px
+		background-color: #fff
+		box-shadow: 0 0 5px rgba(0,0,0,0.1)
+		margin-top: 40px
+		height: 240px
+		img
+			float: right
+			width: 340px
+			height: 240px
+		.step_block
+			width: 101px
+			height: 101px
+			background-color: $red-color
+			border: 2px solid #fff
+			border-radius: 4px
+			position: absolute
+			bottom: 70px
+			left: 705px
+			h1
+				color: #fff
+				font-family: "GeorgiaBold", sans-serif
+				font-size: 60px
+				margin: 0
+				line-height: 42px
+				margin-left: 33px
+				margin-top: 8px
+			p
+				color: #fff
+				font-family: "Helvetica-Normal", sans-serif
+				font-size: 20px
+				margin-left: 29px
+				margin-top: 15px
+		.step_text
+			padding-top: 60px
+			h1
+				font-family: "HelveticaNeueBold", sans-serif
+				font-size: 18px
+				text-align: right
+				margin-right: 445px
+			p
+				font-family: "OpenSans-Regular", sans-serif
+				font-size: 13px
+				color: #5c5c5c
+				text-align: right
+				margin-right: 430px
+
+.our_work
+	background-color: $red-color
+	height: 870px
+	.s_title
+		color: #424242
+	.s_title_p
+		color: #424242
+	.s_line
+		background-color: #f3f3f3
+	.w_blocks1
+		margin-top: 47px
+	.w_block_sm
+		display: none
+	.w_block_md
+		width: 253px
+		height: 253px
+		.w_text
+			text-align: center
+			padding-top: 75px
+			color: #fff
+			h1
+				margin: 0
+				margin-top: 25px
+				font-size: 26px
+				font-family: "HelveticaNeueBold", sans-serif
+			p
+				font-size: 16px
+	.w_block_sm
+		width: 253px
+		height: 253px
+		.w_text
+			text-align: center
+			padding-top: 75px
+			color: #fff
+			h1
+				margin: 0
+				margin-top: 25px
+				font-size: 26px
+				font-family: "HelveticaNeueBold", sans-serif
+			p
+				font-size: 16px
+	.red
+		background-color: #f35e59
+	.r1, .bridge
+		margin-left: 59px
+	.r2, .path
+		margin-left: -15px
+	.camera, .r3
+		margin-left: 20px
+	.tree, .r4
+		margin-left: -54px
+	.r3
+		width: 257px
+	.r4
+		width: 255px
+
+.analys
+	background-color: #1287bf
+	height: 848px
+	.s_title
+		color: #fff
+	.s_title_p
+		color: #fff
+	.form_sm, .form_xs
+		display: none
+	.form_md, .form_sm, .form_xs
+		text-align: center
+		margin-top: 15px
+		.box
+			background: url(../img/form.png) center no-repeat
+			width: 685px
+			height: 479px
+			margin-top: 22px
+			margin: auto
+			h1
+				font-family: "Helvetica-Normal", sans-serif
+				font-size: 15px
+				font-weight: normal
+				color: #828282
+				padding-top: 75px
+			.form_input
+				width: 445px
+				height: 52px
+				margin-top: 12px
+				border-radius: 4px 
+				border: 1px solid #d8d8d8
+				padding-left: 18px
+			.form_input::placeholder
+				color: #b0b0b0
+				font-size: 14px
+			.form_input:visited, 
+			.form_input:focus, 
+			.form_input:active
+				outline: 1px solid #1287bf
+				box-shadow: 0 0 5px rgba(18,135,191,2)
+				border: 1px solid #1287bf
+			.form_input:nth-child(1)
+				margin-top: 25px
+			.btn
+				width: 160px
+				height: 46px
+				margin-top: 36px
+				border-radius: 3px
+				border: none
+				font-family: "HelveticaNeueBold", sans-serif
+				font-size: 15px
+				text-transform: uppercase
+				color: #fff
+				background-color: $red-color
+
+.get
+	background-color: #2a2a2a
+	text-align: center
+	height: 490px
+	.s_title
+		font-size: 29px
+		color: #fff
+	img
+		margin-top: 25px
+		margin-left: 20px
+		border: 2px solid #515151
+		border-radius: 3px
+	img:hover
+		border: 2px solid $red-color
+		border-radius: 3px
+		cursor: pointer
+		transition: .5s
+	h1
+		font-family: "OpenSans-Regular", sans-serif
+		font-size: 14px
+		color: #cecece
+		margin-top: 30px
+	input
+		display: table
+		margin: auto
+	.g_email
+		width: 685px
+		height: 55px
+		border-radius: 2px
+		border: none
+		margin-top: 35px
+		padding-left: 22px
+		background-color: #515151
+	.g_email::placeholder
+		color: #cecece
+		font-size: 14px
+		font-family: "OpenSans-Regular", sans-serif
+	.g_sub
+		width: 150px
+		height: 50px
+		margin-top: 30px
+		border-radius: 2px
+		border: 2px solid #515151
+		background-color: #2a2a2a
+		font-family: "HelveticaNeueBold", sans-serif
+		font-size: 17px
+		color: #fff
+
+.copyright
+	background-color: #515151
+	height: 60px
+	h1
+		font-family: "OpenSans-Regular", sans-serif
+		font-size: 14px
+		font-weight: normal
+		color: #cecece
+		text-align: center
+		margin: 0
+		margin-top: 21px
